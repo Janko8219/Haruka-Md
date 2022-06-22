@@ -22,15 +22,15 @@ ${mundur}
  • Upload : ${upload}
  • Downloads : ${download}
 
-*BOT INFO*
- • Creator : ${ownerName}
- • Bot Name : ${botName}
- • Time : ${jam}
- • Date : ${tanggal}
- • Runtime :
+*𝑩𝑶𝑻 𝑰𝑵𝑭𝑶*
+ 🦋 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : ${ownerName}
+ 🦋 𝐁𝐨𝐭 𝐧𝐚𝐦𝐞 : ${botName}
+ 🦋 𝐓𝐢𝐦𝐞 : ${jam}
+ 🦋 𝐃𝐚𝐭𝐞 : ${tanggal}
+ 🦋 𝐑𝐮𝐧𝐭𝐢𝐦𝐞 :
  ${runtime(process.uptime())}
 
-*USER INFO*
+*𝑼𝑺𝑬𝑹 𝑰𝑵𝑭𝑶*
  • Name : ${pushname !== undefined ? pushname : '-'}
  • Status : ${isOwner ? 'Owner' : isPremium ? 'Premium' : 'Free'}
  • Limit : ${isOwner ? '-' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
